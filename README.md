@@ -13,3 +13,4 @@
  * 13: Authentication using JWT Password hashing using bcrypt
  * 14: Password hashing using bcrypt
  * 15: Mini Project - Student Management
+npm install express mongoose mongodb jsonwebtoken bcrypt  
