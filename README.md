@@ -17,4 +17,7 @@
 
 
 
+
+
+npm init -y
 npm install express mongoose mongodb jsonwebtoken bcrypt  
