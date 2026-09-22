@@ -21,3 +21,11 @@
 
 npm init -y
 npm install express mongoose mongodb jsonwebtoken bcrypt  
+
+
+
+db.users.insertOne({
+    name: "John Doe",
+    email: "john@example.com",
+    age: 30
+})
