@@ -23,9 +23,18 @@ npm init -y
 npm install express mongoose mongodb jsonwebtoken bcrypt  
 
 
-
+9.
 db.users.insertOne({
     name: "John Doe",
     email: "john@example.com",
     age: 30
 })
+
+
+11.
+
+db.students.find({ age: { $gt: 18 } })
+4. Find students with marks greater than or equal to 75 
+db.students.find({ marks: { $gte: 75 } })
+5. Find students from CSE department 
+db.students.find({ department: "CSE" })
